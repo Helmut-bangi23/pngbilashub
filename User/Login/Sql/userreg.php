@@ -1,3 +1,4 @@
+
 <?php   
 
 
@@ -18,7 +19,7 @@ if(isset($_POST['ureg'])){
         if(mysqli_num_rows($table)>0){
 
             echo "<script> alert('User already Exists');
-            window.location = '/E-commerce/ecom/User/index.php';
+            window.location = '/E-Commerce/User/index.php';
            </script>";
           
         }
@@ -32,7 +33,7 @@ if(isset($_POST['ureg'])){
         if(mysqli_query($conn,$sql)){ 
            
             echo "<script> alert('Registration successful');
-             window.location = '/E-commerce/ecom/User/index.php';
+             window.location = '/E-Commerce/User/index.php';
             </script>";
            	  
         }  

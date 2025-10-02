@@ -6,7 +6,7 @@
 		// password => empty
 		// database name => ecommerce
         
-$conn = mysqli_connect("localhost", "root", "", "myapp_db");
+$conn = mysqli_connect("localhost", "root", "", "ecommercedb");
 		
 		// Check connection
 		if($conn === false){
